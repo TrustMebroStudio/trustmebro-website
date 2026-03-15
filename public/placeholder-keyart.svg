@@ -1,0 +1,19 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="900" fill="#020617"/>
+  <circle cx="320" cy="180" r="320" fill="url(#paint0_radial)" fill-opacity="0.5"/>
+  <circle cx="1280" cy="100" r="240" fill="url(#paint1_radial)" fill-opacity="0.45"/>
+  <path d="M0 720C240 660 560 620 800 680C1040 740 1360 820 1600 760V900H0V720Z" fill="#0F172A"/>
+  <text x="80" y="820" fill="#CBD5E1" font-size="38" font-family="Arial, sans-serif" letter-spacing="6">
+    TRUST ME BRO - PLACEHOLDER KEY ART
+  </text>
+  <defs>
+    <radialGradient id="paint0_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(320 180) rotate(90) scale(320)">
+      <stop stop-color="#6366F1"/>
+      <stop offset="1" stop-color="#6366F1" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="paint1_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1280 100) rotate(90) scale(240)">
+      <stop stop-color="#0891B2"/>
+      <stop offset="1" stop-color="#0891B2" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+</svg>
