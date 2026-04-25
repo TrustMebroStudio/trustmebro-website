@@ -7,7 +7,7 @@ import { SectionShell } from "@/components/ui/section-shell";
 
 export function HeroSection() {
   return (
-    <SectionShell className="pt-16 md:pt-24">
+    <SectionShell className="pb-8 pt-16 md:pb-10 md:pt-24">
       <Container>
         <div className="space-y-8 md:space-y-10">
           <div className="space-y-5 md:space-y-6">

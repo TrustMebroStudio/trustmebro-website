@@ -9,7 +9,7 @@ export default function HomePage() {
   return (
     <>
       <HeroSection />
-      <NewsletterCta id="early-newsletter" />
+      <NewsletterCta id="early-newsletter" className="py-8 md:py-10" />
       <FeatureSection />
       <TrailerSection />
       <PlatformSection />

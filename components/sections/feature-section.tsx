@@ -5,7 +5,7 @@ import { SectionShell } from "@/components/ui/section-shell";
 
 export function FeatureSection() {
   return (
-    <SectionShell id="features">
+    <SectionShell id="features" className="pt-8 md:pt-12">
       <Container>
         <div className="mb-10 space-y-2 md:space-y-3">
           <p className="text-xs uppercase tracking-[0.3em] text-muted-foreground">

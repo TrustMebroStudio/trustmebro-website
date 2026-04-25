@@ -17,9 +17,10 @@ type SubmitStatus = "idle" | "loading" | "success" | "error";
 
 type NewsletterCtaProps = {
   id?: string;
+  className?: string;
 };
 
-export function NewsletterCta({ id = "newsletter" }: NewsletterCtaProps) {
+export function NewsletterCta({ id = "newsletter", className }: NewsletterCtaProps) {
   const [email, setEmail] = useState("");
   const [status, setStatus] = useState<SubmitStatus>("idle");
   const [message, setMessage] = useState("");
@@ -82,7 +83,7 @@ export function NewsletterCta({ id = "newsletter" }: NewsletterCtaProps) {
   };
 
   return (
-    <SectionShell id={id}>
+    <SectionShell id={id} className={className}>
       <Container>
         <div className="rounded-3xl border border-white/10 bg-black/40 p-6 md:p-10">
           <div className="mb-6 flex items-center gap-2">
