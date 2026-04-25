@@ -9,6 +9,7 @@ export default function HomePage() {
   return (
     <>
       <HeroSection />
+      <NewsletterCta id="early-newsletter" />
       <FeatureSection />
       <TrailerSection />
       <PlatformSection />

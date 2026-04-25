@@ -11,10 +11,10 @@ import {
 
 export function SiteHeader() {
   const socialLinks = [
-    { href: siteConfig.social.youtube, label: "YouTube", icon: YouTubeIcon },
-    { href: siteConfig.social.instagram, label: "Instagram", icon: InstagramIcon },
-    { href: siteConfig.social.x, label: "X", icon: XIcon },
-    { href: siteConfig.social.discord, label: "Discord", icon: DiscordIcon }
+    { href: siteConfig.social.youtube, label: "YouTube", icon: YouTubeIcon, iconClassName: "!h-5 !w-5" },
+    { href: siteConfig.social.instagram, label: "Instagram", icon: InstagramIcon, iconClassName: "!h-5 !w-5" },
+    { href: siteConfig.social.x, label: "X", icon: XIcon, iconClassName: "!h-5 !w-5" },
+    { href: siteConfig.social.discord, label: "Discord", icon: DiscordIcon, iconClassName: "!h-6 !w-6" }
   ];
 
   return (
@@ -37,7 +37,7 @@ export function SiteHeader() {
           </div>
         </Link>
         <nav className="flex items-center gap-1.5 md:gap-2">
-          {socialLinks.map(({ href, label, icon: Icon }) => (
+          {socialLinks.map(({ href, label, icon: Icon, iconClassName }) => (
             <a
               key={label}
               href={href}
@@ -47,7 +47,7 @@ export function SiteHeader() {
               rel="noreferrer"
               className="rounded-full border border-white/10 p-1.5 text-muted-foreground transition-colors hover:border-white/30 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent/70 focus-visible:ring-offset-2 focus-visible:ring-offset-black md:p-2"
             >
-              <Icon />
+              <Icon className={iconClassName} />
             </a>
           ))}
         </nav>

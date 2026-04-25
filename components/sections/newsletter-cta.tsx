@@ -15,7 +15,11 @@ import { isValidEmail, normalizeEmail } from "@/lib/validators";
 
 type SubmitStatus = "idle" | "loading" | "success" | "error";
 
-export function NewsletterCta() {
+type NewsletterCtaProps = {
+  id?: string;
+};
+
+export function NewsletterCta({ id = "newsletter" }: NewsletterCtaProps) {
   const [email, setEmail] = useState("");
   const [status, setStatus] = useState<SubmitStatus>("idle");
   const [message, setMessage] = useState("");
@@ -29,8 +33,8 @@ export function NewsletterCta() {
 
   const isLoading = status === "loading";
   const hasEmailError = status === "error" && message.toLowerCase().includes("email");
-  const statusMessageId = "newsletter-status-message";
-  const emailInputId = "newsletter-email-input";
+  const statusMessageId = `${id}-status-message`;
+  const emailInputId = `${id}-email-input`;
   const statusClassName = useMemo(() => {
     if (status === "success") return "text-emerald-300";
     if (status === "error") return "text-rose-300";
@@ -78,7 +82,7 @@ export function NewsletterCta() {
   };
 
   return (
-    <SectionShell id="newsletter">
+    <SectionShell id={id}>
       <Container>
         <div className="rounded-3xl border border-white/10 bg-black/40 p-6 md:p-10">
           <div className="mb-6 flex items-center gap-2">
