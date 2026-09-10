@@ -21,7 +21,7 @@ Instagram 링크: https://www.instagram.com/trustmebrostudio/
 X 링크 : https://x.com/RealTrustMeBro
 
 Discord 초대 링크 : 
-https://discord.gg/aj9z6Hsd
+https://discord.gg/4BTYVYeTXz
 
 
 Reference Site Link: (기타 일반적인 문구 내용이 궁금하다면 해당 reference site 의 문구를 참조할것)

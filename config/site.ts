@@ -12,7 +12,7 @@ export const siteConfig = {
     youtube: "https://youtube.com/@trustmebrogame?si=6S_Nm023Hq4B12sn",
     instagram: "https://www.instagram.com/trustmebrostudio/",
     x: "https://x.com/RealTrustMeBro",
-    discord: "https://discord.gg/aj9z6Hsd"
+    discord: "https://discord.gg/4BTYVYeTXz"
   },
   links: {
     steam: "#",
