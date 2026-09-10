@@ -21,7 +21,7 @@ export const siteConfig = {
       "https://drive.google.com/drive/folders/1aGbOUKoM00LfYOby2bAuw7KIOrtN633V?usp=sharing"
   },
   seo: {
-    ogImage: "/assets/main-capsule.png",
+    ogImage: "/assets/main-capsule.png?v=2",
     ogImageAlt: "Trust Me Bro key visual"
   },
   emails: {
